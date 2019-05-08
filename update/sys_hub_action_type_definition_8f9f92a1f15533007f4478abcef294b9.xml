@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>b9bb1e21f15533007f4478abcef29454</copied_from>
+        <copied_from_name>CCW0708 Read Action</copied_from_name>
+        <description/>
+        <internal_name>ccw0708_read_write_action</internal_name>
+        <label_cache>[{"name":"{{action.miles}}","label":"action➛miles","type":"action","ref":""},{"name":"{{action.tier}}","label":"action➛tier","type":"action","ref":""},{"name":"{{step[2035a5ed-5a8a-461d-9e2d-f64f31223d13].v}}","label":"step➛Create ValueRange Object➛v","type":"step","ref":""},{"name":"{{step[2035a5ed-5a8a-461d-9e2d-f64f31223d13].va}}","label":"step➛Create ValueRange Object➛va","type":"step","ref":""},{"name":"{{step[2035a5ed-5a8a-461d-9e2d-f64f31223d13].val}}","label":"step➛Create ValueRange Object➛val","type":"step","ref":""},{"name":"{{step[2035a5ed-5a8a-461d-9e2d-f64f31223d13].valu}}","label":"step➛Create ValueRange Object➛valu","type":"step","ref":""},{"name":"{{step[2035a5ed-5a8a-461d-9e2d-f64f31223d13].value}}","label":"step➛Create ValueRange Object➛value","type":"step","ref":""},{"name":"{{step[2035a5ed-5a8a-461d-9e2d-f64f31223d13].valuer}}","label":"step➛Create ValueRange Object➛valuer","type":"step","ref":""},{"name":"{{step[2035a5ed-5a8a-461d-9e2d-f64f31223d13].valuera}}","label":"step➛Create ValueRange Object➛valuera","type":"step","ref":""},{"name":"{{step[2035a5ed-5a8a-461d-9e2d-f64f31223d13].valueran}}","label":"step➛Create ValueRange Object➛valueran","type":"step","ref":""},{"name":"{{step[2035a5ed-5a8a-461d-9e2d-f64f31223d13].valuerang}}","label":"step➛Create ValueRange Object➛valuerang","type":"step","ref":""},{"name":"{{step[2035a5ed-5a8a-461d-9e2d-f64f31223d13].valuerange}}","label":"step➛Create ValueRange Object➛valuerange","type":"step","ref":""},{"name":"{{step[1cf912ee-cac3-4cc8-a8bf-786857cee7b9].response_body}}","label":"step➛Read Sheet➛Response Body","type":"step","ref":""},{"name":"{{step[137f9090-0cbe-4d4f-bbd5-a54d11217681].p}}","label":"step➛Extract Points➛p","type":"step","ref":""},{"name":"{{step[137f9090-0cbe-4d4f-bbd5-a54d11217681].po}}","label":"step➛Extract Points➛po","type":"step","ref":""},{"name":"{{step[137f9090-0cbe-4d4f-bbd5-a54d11217681].poi}}","label":"step➛Extract Points➛poi","type":"step","ref":""},{"name":"{{step[137f9090-0cbe-4d4f-bbd5-a54d11217681].poin}}","label":"step➛Extract Points➛poin","type":"step","ref":""},{"name":"{{step[137f9090-0cbe-4d4f-bbd5-a54d11217681].point}}","label":"step➛Extract Points➛point","type":"step","ref":""},{"name":"{{step[137f9090-0cbe-4d4f-bbd5-a54d11217681].points}}","label":"step➛Extract Points➛points","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>CCW0708 Read Write Action</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:34:01</sys_created_on>
+        <sys_id>8f9f92a1f15533007f4478abcef294b9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>CCW0708 Read Write Action</sys_name>
+        <sys_package display_value="Google Sheets Spoke" source="x_snc_google_sheet">a9c55e6df11533007f4478abcef294de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Sheets Spoke">a9c55e6df11533007f4478abcef294de</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_8f9f92a1f15533007f4478abcef294b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:44:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=8f9f92a1f15533007f4478abcef294b9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8f9f92a1f15533007f4478abcef294b9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>8f9f92a1f15533007f4478abcef294b9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:44:19</sys_created_on>
+        <sys_id>f5f1eea1f15533007f4478abcef29448</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:44:19</sys_updated_on>
+        <value/>
+        <variable display_value="">65f1eea1f15533007f4478abcef2943f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8f9f92a1f15533007f4478abcef294b9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>calculated_points</field>
+        <id>8f9f92a1f15533007f4478abcef294b9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:44:19</sys_created_on>
+        <sys_id>75f1eea1f15533007f4478abcef29448</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:44:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_8f9f92a1f15533007f4478abcef294b9</table>
+        <value>{{step[137f9090-0cbe-4d4f-bbd5-a54d11217681].points}}</value>
+    </sys_element_mapping>
+</record_update>

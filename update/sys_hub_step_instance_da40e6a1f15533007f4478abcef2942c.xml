@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CCW0708 Read Write Action">8f9f92a1f15533007f4478abcef294b9</action>
+        <cid>2035a5ed-5a8a-461d-9e2d-f64f31223d13</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create ValueRange Object</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:36:58</sys_created_on>
+        <sys_id>da40e6a1f15533007f4478abcef2942c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create ValueRange Object</sys_name>
+        <sys_package display_value="Google Sheets Spoke" source="x_snc_google_sheet">a9c55e6df11533007f4478abcef294de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Sheets Spoke">a9c55e6df11533007f4478abcef294de</sys_scope>
+        <sys_update_name>sys_hub_step_instance_da40e6a1f15533007f4478abcef2942c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:36:59</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=da40e6a1f15533007f4478abcef2942c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>da40e6a1f15533007f4478abcef2942c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:36:59</sys_created_on>
+        <sys_id>5240e6a1f15533007f4478abcef29440</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:36:59</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var valueRange = {};
+  valueRange.majorDimension = 'COLUMNS';
+  valueRange.range = 'B3:B4';
+  valueRange.values = [[inputs.miles,inputs.tier]];
+  outputs.valuerange = JSON.stringify(valueRange);
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>da40e6a1f15533007f4478abcef2942c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:36:59</sys_created_on>
+        <sys_id>9e40e6a1f15533007f4478abcef2943f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:36:59</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=da40e6a1f15533007f4478abcef2942c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>da40e6a1f15533007f4478abcef2942c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:36:59</sys_created_on>
+        <sys_id>5a40e6a1f15533007f4478abcef2943f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:36:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>miles</field>
+        <id>da40e6a1f15533007f4478abcef2942c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:36:59</sys_created_on>
+        <sys_id>2240e6a1f15533007f4478abcef29441</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:36:59</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_da40e6a1f15533007f4478abcef2942c</table>
+        <value>{{action.miles}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>da40e6a1f15533007f4478abcef2942c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:36:59</sys_created_on>
+        <sys_id>1e40e6a1f15533007f4478abcef2943f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:36:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tier</field>
+        <id>da40e6a1f15533007f4478abcef2942c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:36:59</sys_created_on>
+        <sys_id>5e40e6a1f15533007f4478abcef29440</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:36:59</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_da40e6a1f15533007f4478abcef2942c</table>
+        <value>{{action.tier}}</value>
+    </sys_element_mapping>
+</record_update>

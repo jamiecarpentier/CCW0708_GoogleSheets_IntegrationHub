@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>airline_points</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.tier","label":"Trigger➛Airline Points Record➛Tier","reference":"","reference_display":"Tier","type":"string","base_type":"string","parent_table_name":"x_snc_google_sheet_airline_points","column_name":"tier"},{"name":"Created or Updated_1.current.miles","label":"Trigger➛Airline Points Record➛Miles","reference":"","reference_display":"Miles","type":"integer","base_type":"integer","parent_table_name":"x_snc_google_sheet_airline_points","column_name":"miles"},{"name":"f38096a9-bbb5-4e9b-a4f9-7a361005e154.calculated_points","label":"1➛calculated_points","type":"integer","base_type":"integer"},{"name":"b73464d6-9714-4cbb-a1af-b8f37b2985ca.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"b73464d6-9714-4cbb-a1af-b8f37b2985ca.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.current","label":"Trigger➛Airline Points Record","reference":"x_snc_google_sheet_airline_points","reference_display":"Airline Points","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Airline Points</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:45:26</sys_created_on>
+        <sys_id>0e32eea1f15533007f4478abcef294f7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Airline Points</sys_name>
+        <sys_package display_value="Google Sheets Spoke" source="x_snc_google_sheet">a9c55e6df11533007f4478abcef294de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Sheets Spoke">a9c55e6df11533007f4478abcef294de</sys_scope>
+        <sys_update_name>sys_hub_flow_0e32eea1f15533007f4478abcef294f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:49:26</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0e32eea1f15533007f4478abcef294f7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0e32eea1f15533007f4478abcef294f7"/>
+</record_update>

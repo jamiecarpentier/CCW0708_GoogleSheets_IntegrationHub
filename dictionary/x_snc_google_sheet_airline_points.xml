@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Airline Points" max_length="40" name="x_snc_google_sheet_airline_points" type="collection">
+        <element label="Miles" max_length="40" name="miles" type="integer"/>
+        <element label="Points" max_length="40" name="points" type="integer"/>
+        <element label="Remarks" max_length="40" name="remarks" type="string"/>
+        <element label="Tier" max_length="40" name="tier" type="string"/>
+    </element>
+</database>

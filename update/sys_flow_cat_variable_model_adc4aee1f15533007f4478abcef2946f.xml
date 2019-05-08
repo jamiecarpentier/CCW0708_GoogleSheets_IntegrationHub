@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e5c4aee1f15533007f4478abcef2946f</id>
+        <name>Airline Points</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 21:56:35</sys_created_on>
+        <sys_id>adc4aee1f15533007f4478abcef2946f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Airline Points</sys_name>
+        <sys_package display_value="Google Sheets Spoke" source="x_snc_google_sheet">a9c55e6df11533007f4478abcef294de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Sheets Spoke">a9c55e6df11533007f4478abcef294de</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_adc4aee1f15533007f4478abcef2946f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 21:56:35</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>
